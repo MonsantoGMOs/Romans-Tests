@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Romans</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #f2f2f2; /* Light grey background color */
+    }
+    .container {
+        max-width: 640px; /* Max width for content */
+        margin: 0 auto; /* Center the container */
+    }
+    h1 {
+        font-size: 1.5em; /* Larger font size for title */
+        margin-bottom: 10px; /* Add some space below title */
+    }
+    p {
+        font-size: 0.9em; /* Smaller font size for text */
+    }
+    .video-container {
+        position: relative;
+        width: 100%;
+        padding-top: 56.25%; /* Aspect ratio 16:9 */
+        margin-bottom: 20px; /* Add some space below video */
+    }
+    .video-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <h1>Romans</h1> <!-- Title -->
+    <p>This is an introduction to the book of Romans.</p> <!-- Body of text -->
+    <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ej_6dVdJSIU" frameborder="0" allowfullscreen></iframe>
+    </div>
+</div>
+</body>
+</html>
